@@ -2,4 +2,4 @@
 
 require 'vendor/autoload.php';
 
-(new TemplatePattern\VeggieSub())->make();
+(new TemplateMethod\VeggieSub())->make();

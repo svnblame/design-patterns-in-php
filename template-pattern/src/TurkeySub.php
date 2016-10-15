@@ -1,4 +1,4 @@
-<?php namespace TemplatePattern;
+<?php namespace TemplateMethod;
 
 
 class TurkeySub extends Sub
