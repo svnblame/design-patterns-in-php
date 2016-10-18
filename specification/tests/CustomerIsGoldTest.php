@@ -8,9 +8,9 @@ class CustomerIsGoldTest extends PHPUnit_Framework_TestCase {
     {
         $specification = new CustomerIsGold;
 
-        $goldCustomer = new Customer('gold');
+        $goldCustomer = new Customer(['type' => 'gold']);
 
-        $silverCustomer = new Customer('silver');
+        $silverCustomer = new Customer(['type' => 'silver']);
 
         $this->assertTrue($specification->isSatisfiedBy($goldCustomer));
 
